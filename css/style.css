@@ -8,8 +8,8 @@
 .banner{
     background-image:url(/images/banner/banner1.png);
     background-repeat: no-repeat;
-    background-color: #4139396c;
-    background-blend-mode: lighten;
+    background-color: #867c7c9d;
+    background-blend-mode: darken;
     background-size: cover;
     height: 808px;
     width: 100%;
@@ -100,6 +100,39 @@
     text-align: center;
     padding: 30px;
     margin-bottom: 50px;
+}
+.programming-language>h3{
+    text-align: center;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+.programming-language{
+    padding: 200px;
+}
+.language-name{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+}
+.language-description{
+    color: #1d1010;
+    font-size: 25px;
+    font-weight: 500;
+}
+.language-box{
+    display: flex;
+    gap: 40px;
+    margin: 40px 0 30px 0;
+    
+}
+.language-sub-box{
+    padding: 20px 20px 70px 4px;
+    border: none;
+    border-radius: 10px;
+    background-color:#cabfbb33;
+    box-shadow: 5px 5px #444343;
 }
 /* positive mindset styles. gradient added here */
 .positive-mindset{
