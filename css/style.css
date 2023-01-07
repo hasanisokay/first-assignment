@@ -6,7 +6,7 @@
 }
 /* banner background styles */
 .banner{
-    background-image:url(/images/banner/banner1.png);
+    background-image:url(./images/banner/banner1.png);
     background-repeat: no-repeat;
     background-color: #867c7c9d;
     background-blend-mode: darken;
@@ -101,38 +101,44 @@
     padding: 30px;
     margin-bottom: 50px;
 }
+/* "My Favourite Programming Languages" text style */
 .programming-language>h3{
     text-align: center;
     color: #151414;
     font-size: 30px;
     font-weight: 700;
 }
+/* targetting whole Programming Language section and padding this to fit in the screen */
 .programming-language{
     padding: 200px;
 }
+/* title of the language */
 .language-name{
     color: #151414;
     font-size: 30px;
     font-weight: 700;
     padding: 20px 0 20px 0;
 }
+/* description of the programming languages */
 .language-description{
     color: #1d1010;
     font-size: 25px;
     font-weight: 500;
 }
+/* putting styles to the anchor text"see more" in the programming language section */
 a{
     text-decoration: none;
     color: #1d1010;
     font-size: 25px;
     font-weight: 500;
 }
+/* Programming language whole section here to flex the inner boxes  */
 .language-box{
     display: flex;
     gap: 40px;
-    margin: 40px 0 30px 0;
-    
+    margin: 40px 0 30px 0;    
 }
+/* each programming box given the same class and targetting them to have same design */
 .language-sub-box{
     padding: 20px 20px 70px 4px;
     border: none;
@@ -207,4 +213,3 @@ a{
     background-color: #151414;
     border: 2px solid white;
 }
-/* footer style end */
