@@ -102,10 +102,10 @@
     height: 200px;
     width: 900px;
     padding: 60px 0 0 60px;
-    margin: 70px 0 180px 180px;
     border-radius: 5px;
+    margin: 70px 0 180px 370px;
 }
-.button-call-now{
+.last-buttons{
     border: none;
     color: #F15B22;
     padding: 10px;
