@@ -145,11 +145,11 @@
 .future-description{
     padding-bottom: 10px;
 }
-/* padding email and phone */
-.future-email{
-padding-bottom: 10px;
+/* targetting social icons in footer */
+.contact-icons{ 
+    display: flex;
+    gap: 15px;
 }
-
 /* targetting right side of the footer. Subscribe section */
 .subscribe{
     padding: 135px 370px 0 0;
