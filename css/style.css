@@ -29,12 +29,13 @@
     padding: 0 200px 20px 700px;
 }
 /* button styles */
-.button{
+.button-contact-us{
     padding: 20px;
     background-color: #F15B22;
     color: #FFFFFF;
     margin: 0 200px 20px 700px ;
     border: none;
+    border-radius: 8px;
 }
 /* my failures of previous year styles */
 .my-failure{
@@ -109,6 +110,8 @@
     color: #F15B22;
     padding: 10px;
     margin-top: 24px;
+    font-weight: 600;
+    border-radius: 8px;
 }
 .always-positive{
     font-size: 40px;
@@ -117,13 +120,33 @@
 }
 .footer{
     background: #151414;
+    display: flex;
+    color: #F8F8F8;
+}
+.future{
+    text-align: left;
+    padding:130px 300px 130px 230px;
 }
 .future-title{
     font-size: 45px;
     font-weight: 700;
-    color: #F8F8F8;
+    padding-bottom: 10px;
 }
-.future-{
-    color: #FFFFFF;
-    font-size: 16px
+.future-description{
+    padding-bottom: 10px;
+}
+.future-email{
+padding-bottom: 10px;
+}
+.subscribe{
+    padding: 135px 370px 0 0;
+}
+.subscribe >h6{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#email{
+    height: 64px;
+    width: 325px;
 }
