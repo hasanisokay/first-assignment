@@ -27,7 +27,7 @@
 .banner-description{
     font-size: 16px;
     color: #444343;
-    padding: 0 200px 20px 700px;
+    padding: 0 200px 20px 750px;
 }
 /* contact us button at the bannaer */
 .button-contact-us{
@@ -45,7 +45,7 @@
 
 }
 .failure-of-previous{
-    padding: 250px 0 0 50px;
+    padding: 65px 70px 100px 50px;
 
 } 
 /* targetting the title */
@@ -117,6 +117,12 @@
     padding: 20px 0 20px 0;
 }
 .language-description{
+    color: #1d1010;
+    font-size: 25px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
     color: #1d1010;
     font-size: 25px;
     font-weight: 500;
